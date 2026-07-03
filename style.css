@@ -1,4 +1,4 @@
-/* GLOBAL STYLES */
+/* Estilos Globales */
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ body {
     padding: 80px 20px;
 }
 
-/* HERO SECTION */
+/* Estilo del header */
 .hero {
     height: 100vh;
     width: 100%;
@@ -83,7 +83,7 @@ body {
     letter-spacing: 2px;
 }
 
-/* SCROLL DOWN BUTTON */
+/* Boton de scrollear */
 .scroll-down {
     position: relative;
     bottom: 30px;
@@ -116,7 +116,7 @@ body {
     60% { transform: translateY(-4px); }
 }
 
-/* SECTION TITLES & HEADINGS */
+/* Seccion para titulos y cabeceras */
 h2 {
     font-size: 2.2rem;
     text-align: center;
@@ -132,7 +132,7 @@ h2 {
     border-radius: 2px;
 }
 
-/* ABOUT SECTION */
+/* Sección "Sobre Nosotros" */
 .about-section {
     margin-bottom: 100px;
     text-align: center;
@@ -152,7 +152,7 @@ h2 {
     opacity: 0.8;
 }
 
-/* PROJECTS SECTION */
+/* Sección de proyectos */
 .projects-section {
     margin-bottom: 100px;
 }
@@ -219,7 +219,7 @@ h2 {
     transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
-/* Live Demo Button (Main/Accent) */
+/* Botón "Ver Demo" */
 .live-link {
     background: var(--accent-grad);
     color: #000;
@@ -231,7 +231,7 @@ h2 {
     box-shadow: 0 4px 15px rgba(0, 242, 254, 0.3);
 }
 
-/* GitHub Button (Secondary/Outline) */
+/* Botón "Visitar GitHub" */
 .github-link {
     background: var(--btn-secondary);
     border: 1px solid var(--btn-secondary-border);
@@ -247,7 +247,7 @@ h2 {
     font-size: 1.1rem;
 }
 
-/* CONTACT SECTION */
+/* Sección de contacto */
 .contact-section {
     text-align: center;
     background: rgba(19, 28, 49, 0.4);
@@ -282,7 +282,7 @@ h2 {
     box-shadow: 0 5px 20px rgba(0, 242, 254, 0.4);
 }
 
-/* FOOTER SECTION */
+/* Estilo del footer */
 .footer {
     background-color: #060a14;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
@@ -350,7 +350,7 @@ h2 {
     border-color: rgba(29, 191, 115, 0.3);
 }
 
-/* RESPONSIVE DESIGN */
+/* Diseño responsive */
 @media (max-width: 768px) {
     .hero-content h1 {
         font-size: 2.2rem;
